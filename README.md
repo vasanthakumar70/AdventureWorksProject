@@ -18,6 +18,13 @@ The project utilizes the AdventureWorks database, which includes the following t
 - **SpecialOfferProduct**
 - **Store**
 
+You can download the AdventureWorks database [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms).
+
+## Data Model Diagram
+Below is the data model diagram used in this project:
+
+![Data Model Diagram](https://github.com/vasanthakumar70/AdventureWorksProject/blob/fc8e8a8a10aa391edfbc92ba5c103691459942d8/Data%20Model%20Diagram.svg)
+
 ## Key Features
 The project addresses the following analytical questions:
 
