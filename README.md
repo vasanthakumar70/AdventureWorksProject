@@ -6,6 +6,18 @@ Welcome to the AdventureWorks Data Engineering Project! This repository showcase
 ## Project Description
 The main goal of this project is to provide insightful analytics on sales data, focusing on several key performance indicators (KPIs) that drive business decisions. The data has been sourced from an on-premises SQL Server, transferred to Azure Data Lake Storage using a self-hosted runtime in Azure Data Factory, and transformed in Azure Databricks.
 
+## Database
+The project utilizes the AdventureWorks database, which includes the following tables:
+
+- **CreditCard**
+- **Customer**
+- **SalesOrderDetail**
+- **SalesOrderHeader**
+- **SalesPerson**
+- **SalesTerritory**
+- **SpecialOfferProduct**
+- **Store**
+
 ## Key Features
 The project addresses the following analytical questions:
 
