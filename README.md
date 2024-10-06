@@ -64,6 +64,9 @@ The project utilizes a medallion architecture:
 - **Gold Layer:**  
   Curated data that has undergone advanced transformations and analytics, ready for reporting and insights.
 
+  Process Flow:  
+![Process Flow]( https://github.com/vasanthakumar70/AdventureWorksProject/blob/bc705a6ecc5d23ad0babb3430130d9685773d29d/process%20Flow.png)
+
 ## Technologies Used
 - **Data Source:** SQL Server (on-premises)
 - **Data Transfer:** Azure Data Factory (self-hosted runtime)
