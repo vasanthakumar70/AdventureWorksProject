@@ -73,3 +73,9 @@ The project utilizes a medallion architecture:
 - **Data Storage:** Azure Data Lake Storage
 - **Data Transformation:** Azure Databricks
 - **Architecture:** Medallion Architecture (Bronze, Silver, Gold)
+
+## Additional Resources
+- For designing flow diagrams, check out: [Diagrams.net](https://app.diagrams.net/)
+- For creating database model diagrams, visit: [DBDiagram.io](https://dbdiagram.io/)
+
+
