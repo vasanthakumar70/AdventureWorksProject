@@ -27,9 +27,9 @@ Below is the data model diagram used in this project:
 
 
 ## Technologies Used
-- **Data Source:** SQL Server (on-premises)
+- **Source:** SQL Server (on-premises)
 - **Data Transfer:** Azure Data Factory (self-hosted runtime)
-- **Data Storage:** Azure Data Lake Storage
+- **Storage:** Azure Data Lake Storage, Synapse Data Warehouse
 - **Data Transformation:** Azure Databricks
 - **Architecture:** Medallion Architecture (Bronze, Silver, Gold)
 
