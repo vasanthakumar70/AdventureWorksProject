@@ -25,45 +25,6 @@ Below is the data model diagram used in this project:
 
 ![Data Model Diagram](https://github.com/vasanthakumar70/AdventureWorksProject/blob/fc8e8a8a10aa391edfbc92ba5c103691459942d8/Data%20Model%20Diagram.svg)
 
-## Key Features
-The project addresses the following analytical questions:
-
-- **Year-Over-Year Sales Comparison:**  
-  Total sales per month and how they compare year-over-year.
-
-- **Sales Percentage Change:**  
-  Calculation of sales percentage compared with the previous year.
-
-- **High-Value Customers:**  
-  Identification of customers who consistently make high-value purchases and contribute significantly to revenue.
-
-- **Customer Purchase Timeline:**  
-  Analysis of the first and last purchase of each customer, including the number of days in between.
-
-- **Order Fulfillment Analysis:**  
-  Assessment of average order fulfillment time and its variation across different products or regions.
-
-- **Credit Card Usage Trends:**  
-  Examination of how the usage of different credit card types varies across different customer segments and purchase amounts.
-
-- **Special Offers Effectiveness:**  
-  Evaluation of the impact of special offers on sales volume and revenue, including an analysis of which offers are most effective, and insight into how special offers influence customer retention and repeat purchases.
-
-- **Customer Orders Post-Special Offer:**  
-  Tracking customer orders after their first special offer purchase.
-
-## Data Architecture
-The project utilizes a medallion architecture:
-
-- **Bronze Layer:**  
-  Raw data ingested from SQL Server into Azure Data Lake Storage.
-
-- **Silver Layer:**  
-  Cleansed and transformed data, including deduplication and handling null values.
-
-- **Gold Layer:**  
-  Curated data that has undergone advanced transformations and analytics, ready for reporting and insights.
-
 
 ## Technologies Used
 - **Data Source:** SQL Server (on-premises)
@@ -79,6 +40,20 @@ The project utilizes a medallion architecture:
 ### Datafactory
 
 ![Azure data factory](https://github.com/vasanthakumar70/AdventureWorksProject/blob/edc3a64db1ed4b2c9380052ed049d2fee27e748d/Data%20factory.png)
+
+
+
+## Key Features
+The project addresses the following analytical questions:
+
+- **Year-Over-Year Sales Comparison:**  
+- **Sales Percentage Change:**  
+- **High-Value Customers:**  
+- **Customer Purchase Timeline:**  
+- **Order Fulfillment Analysis:**  
+- **Credit Card Usage Trends:**  
+- **Special Offers Effectiveness:**  
+- **Customer Orders Post-Special Offer:**  
 
 
 
